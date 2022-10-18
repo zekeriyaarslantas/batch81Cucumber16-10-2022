@@ -11,4 +11,13 @@ public class DemoPage {
     }
     @FindBy (xpath = "//span[@class='text'][.='Alerts']")
     public WebElement alertWE;
+    @FindBy (xpath = "(//*[text()='Click me'])[2]")
+    public WebElement click;
+
+
+
+
+
+
+
 }
